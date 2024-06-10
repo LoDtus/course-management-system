@@ -35,9 +35,6 @@ p, span, div, a {
 .title {
     font-size: clamp(0.9375rem, 0.85rem + 0.3333vw, 1.25rem) !important;
 }
-.container-header {
-    font-size: 22px !important;
-}
 body {
     margin: 0;
 }

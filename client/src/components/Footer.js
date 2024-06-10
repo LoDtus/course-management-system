@@ -2,11 +2,11 @@ import '../App.css';
 
 function Footer() {
     return (
-        <footer className="flex justify-center">
+        <footer className="flex justify-center border-t pt-10">
             <div className="container-footer px-10 mb-[30px] text-[#888888]">
                 <div className="first-footer md:flex">
                     <div className="about-footer basis-2/6 mt-5">
-                        <p className='title font-semibold text-[#292929] text-xl mb-2'>Project: Text Editor</p>
+                        <p className='title font-semibold text-[#292929] text-xl mb-2'>Project: Course Management System</p>
                         <p className='mb-1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa rem minus veniam delectus quidem assumenda necessitatibus magni facilis inventore. Animi cum in quis voluptate dicta suscipit eum esse quasi minus?</p>
                         <span className='text-[#292929] font-semibold'>Source Code: </span>
                         <a className='underline underline-offset-2 hover:text-[#292929] duration-200' href='https://github.com/LoDtus'>here</a>
@@ -53,7 +53,7 @@ function Footer() {
 
                 <div className="border mt-[80px]"></div>
                 <div className="second-footer flex flex-col items-center">
-                    <div className="contact-footer flex relative bottom-[28px] bg-[#fafafa] px-10">
+                    <div className="contact-footer flex relative bottom-[28px] bg-white px-10">
                         <a className="gmail-contact-footer m-3" href='mailto:nguyentrunglong.150903@gmail.com'>
                             <svg className='w-[30px] h-[30px] fill-[#888888] hover:fill-[#292929] duration-200' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/>
