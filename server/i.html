@@ -5,32 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-            body {
-                display: flex;
-            }
-            .div1, .div2 {
-                width: 100%;
-                height: 100vh;
-            }
             .div1 {
-                background-color: red;
-                flex-basis: 20%;
+                width: 200px;
+                height: 1000px;
+                border: 1px solid black;
+                position: relative;
+                left: 200px;
             }
             .div2 {
-                background-color: aqua;
-                flex-basis: 80%;
+                width: 100%;
+                height: 200px;
+                background-color: red;
+                position: absolute;
             }
-            button {
-                height: fit-content;
+            .div3 {
+                width: 100%;
+                height: 200px;
+                background-color: blue;
+                position: absolute;
             }
         </style>
     </head>
     <body>
-        <!-- <button class="more" onclick="{more()}">More</button>
-        <div class="div1">a</div>
-        <div class="div2">b</div> -->
-
-        <div style="background-color:red;width:100px;height:100px;border:1px solid black"></div>
+        <div class="div1">
+            <div class="div2"></div>
+            <div class="div3"></div>
+        </div>
 
         <script>
             

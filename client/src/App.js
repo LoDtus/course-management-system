@@ -5,6 +5,7 @@ import Header from './components/Header';
 import NavigationBar from './components/NavigationBar/NavigationBar'
 import Footer from './components/Footer';
 
+import Profile from './components/Profile';
 import CoursesLayout from './components/CoursesLayout';
 import CourseScheduling from './components/CourseScheduling';
 
@@ -20,6 +21,11 @@ function App() {
                         user={'student'}
                     />
                     <Routes>
+                        <Route path="/profile" 
+                            element={
+                                <Profile/>
+                            }
+                        />
                         <Route path="/courses" 
                             element={
                                 <CoursesLayout/>
